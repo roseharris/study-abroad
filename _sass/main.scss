@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Merriweather:ital@1&display=swap');
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+
+@import "../node_modules/bulma/bulma";
+
+.hero {   
+    
+    h1, h2 {
+        color: #F2F2F2;
+        font-family: 'Josefin Sans', sans-serif;        
+        font-size: 1.5rem;
+        strong {
+            color: gray;
+        }
+    }
+    &.has-background {
+      position: relative;
+      overflow: hidden;
+    }
+    &-background {
+      position: absolute;
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      height: 100%;
+      &.is-transparent {
+        opacity: 0.9;
+      }
+    }
+
+    .container{
+        background-image: linear-gradient(to bottom right, #8446ac, #a391b1);
+        margin-left: 2rem;
+        padding: 5rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 40%;
+    }
+  }
+
+.main-content {
+    background: #371a4c;
+}
+
+.button .is-link .modal-button .is-light {
+    color: #492365;
+    background-color: #dcc6eb;
+}
