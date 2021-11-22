@@ -58,6 +58,16 @@ $primary-invert: $pink-invert;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 40%;
     }
+
+    @media (max-width: 1000px) {
+        .container{
+            background-image: linear-gradient(to bottom right, #8446ac, #a391b1);
+            margin-left: 0;
+            padding: 2rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            width: 95%;
+        }
+    }
   }
 
 .main-content {
@@ -68,3 +78,4 @@ $primary-invert: $pink-invert;
     color: #492365;
     background-color: #dcc6eb;
 }
+

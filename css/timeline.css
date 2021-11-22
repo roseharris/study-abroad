@@ -103,34 +103,39 @@ section#timeline article:nth-child(2n+2) div.inner h2:after {
   left: -5px;
 }
 section#timeline article:nth-child(1) div.inner h2 {
-  background: #d25d12;
+  background: #a52428;
 }
 section#timeline article:nth-child(1) div.inner h2:after {
-  background: #d25d12;
+  background: #a52428;
 }
 section#timeline article:nth-child(2) div.inner h2 {
-  background: #a3d55d;
+  background: #d25d12;
 }
 section#timeline article:nth-child(2) div.inner h2:after {
-  background: #a3d55d;
+  background: #d25d12;
 }
 section#timeline article:nth-child(3) div.inner h2 {
-  background: #f6b221;
+  background: #005c49;
 }
 section#timeline article:nth-child(3) div.inner h2:after {
-  background: #f6b221;
+  background: #005c49;
 }
 section#timeline article:nth-child(4) div.inner h2 {
-  background: #25cad3;
+  background: #005f71;
 }
 section#timeline article:nth-child(4) div.inner h2:after {
-  background: #25cad3;
+  background: #005f71;
 }
 section#timeline article:nth-child(5) div.inner h2 {
-  background: #a52428;
+  background: #7f56c5;
 }
 section#timeline article:nth-child(5) div.inner h2:after {
-  background: #a52428;
+  background: #7f56c5;
+}
+
+.border:hover {
+  outline: 2px dotted white;
+  border-radius: 5px;
 }
 
 
