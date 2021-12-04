@@ -6,6 +6,7 @@ html, body {
 body {
   background: #25303B;
 }
+
 section#timeline {
   width: 80%;
   margin: 20px auto;
@@ -136,6 +137,12 @@ section#timeline article:nth-child(5) div.inner h2:after {
 .border:hover {
   outline: 2px dotted white;
   border-radius: 5px;
+}
+
+
+.page-header {
+  color: #F2F2F2;
+  font-size: 2rem;
 }
 
 
